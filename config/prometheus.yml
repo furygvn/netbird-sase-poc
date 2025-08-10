@@ -1,0 +1,10 @@
+global:
+  scrape_interval: 15s
+
+scrape_configs:
+  - job_name: 'netbird'
+    static_configs:
+      - targets: ['netbird:3000']
+  - job_name: 'opa'
+    static_configs:
+      - targets: ['opa:8181']
