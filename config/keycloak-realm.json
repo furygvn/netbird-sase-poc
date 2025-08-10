@@ -1,0 +1,12 @@
+{
+  "realm": "netbird",
+  "enabled": true,
+  "clients": [
+    {
+      "clientId": "netbird",
+      "publicClient": true,
+      "redirectUris": ["*"],
+      "webOrigins": ["*"]
+    }
+  ]
+}
